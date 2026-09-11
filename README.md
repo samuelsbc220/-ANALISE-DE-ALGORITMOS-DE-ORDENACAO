@@ -29,6 +29,14 @@ Durante os testes serão contabilizadas:
 - trocas ou movimentações de elementos.
 
 Os resultados serão utilizados para relacionar o tamanho da entrada, a quantidade de operações e a complexidade computacional dos algoritmos.
+
+### Critério utilizado para trocas e movimentações
+
+- Bubble Sort: cada troca entre dois elementos conta como 1 troca.
+- Insertion Sort: cada deslocamento de um elemento e a reposição da chave contam como movimentação.
+- Selection Sort: cada troca do menor elemento encontrado com a posição atual conta como 1 troca.
+- Quick Sort: cada troca realizada durante o particionamento conta como 1 movimentação.
+
 ## Etapa 3 – Resultados
 
 | Tamanho | Bubble Comparações | Bubble Trocas | Insertion Comparações | Insertion Mov. | Selection Comparações | Selection Trocas | Quick Comparações | Quick Mov. |
